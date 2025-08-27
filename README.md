@@ -36,6 +36,9 @@ Example:  /blue say my text is blue
     - `/black say test [Gemstone of Ysera]` → Don't do this as it will just output the uncolored version.  Sends “test [Gemstone of Ysera]” uncolored with a clickable link, with console warning.
 - **Notes**:
   - Item links cannot be colored due to `ChatThrottleLib` restrictions in Turtle WoW.
+  - Example of coloring an item link
+  -- /run SendChatMessage("Custom Message \124c00rrggbb\124Hitem:[item id]:0:0:0:0:0:0:0\124h[Fake Item Name]\124h\124r", "CHANNEL",nil,1)
+  -- Replace rrggbb with your desired color code.  Channel 1 is "General" for me.  Item id 50604 is the accursed Gnome Race Change Token.
   - If messages fail or are cut off, you may be reaching the script max length.  This is increased by using SuperWoW/SuperAPI.  Keep messages short (5-6 words for `/nature`, `/fire`, `/ice`, `/shadow`; 20 characters for `/rainbow`) to avoid the 255-character limit.
 
 ## Troubleshooting
