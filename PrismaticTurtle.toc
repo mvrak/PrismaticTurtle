@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: Prismatic Turtle
+## Notes: Allows randomizing or choosing colors for chat messages with schemes like rainbow.
+## Author: Marilketh
+## AI: Grok
+## Version: 1.0.0
+
+PrismaticTurtle.lua
